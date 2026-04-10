@@ -1,0 +1,23 @@
+1. Coding is Cool
+There are 10 marks available for this exercise.
+
+Fill in the blanks in the code below so the program outputs "Coding is Cool" to the console.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+     _____ << _____ << endl;
+}
+
+
+#include <iostream>                        //Tells the compiler to include the Input/Output Stream library
+#include <string>                          // Allow to use the string from C++ library
+using namespace std;                       // Tells compiler to use namespace from std and allow to avoid use std:: everytime
+
+//  Starting point of program and defines main function
+int main() {
+    cout << "coding is cool" << endl;     // Output statement
+    return 0;                             // Tels system program ended sucesfully 
+}
